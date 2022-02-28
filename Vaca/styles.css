@@ -1,0 +1,93 @@
+
+.container {
+
+    height: 30vw;
+    width: 30vw;
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /*Eje x*/
+    align-items: center;
+}
+
+.square-block-container {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.component-square-block-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+.top-row-block {
+    border: black solid 1px;
+}
+
+.lenguita {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right-eye {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.left-eye {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: white;
+}
+
+.lenguita-lenguita {
+    background-color: red;
+    width: 40px;
+}
+
+.background-blue {
+    background-color: #3ac2bd;
+}
+
+.background-green {
+    background-color: greenyellow;
+}
+
+.background-red {
+    background-color: #690202;
+}
+
+.background-rositapepita {
+    background-color: #736a21;
+}
+
+.background-light-blue {
+    background-color: #2fa1ab;
+}
+
+.background-black {
+    background-color: black;
+}
+
+.background-rosita-no-pepita {
+    background-color: pink;
+}
+
+.background-red-deverdaa {
+    background-color: red;
+}
